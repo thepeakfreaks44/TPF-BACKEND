@@ -41,7 +41,7 @@ app = FastAPI(title="The Peak Freaks API")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://tpf-frontend-m4p0qww6v-thepeakfreaks44-projects.vercel.app"
+        "https://tpf-frontend-m4p0qww6v-thepeakfreaks44-projects.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
